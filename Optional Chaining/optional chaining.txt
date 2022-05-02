@@ -1,0 +1,2 @@
+Optional Chaining is great thing that i try to learn with Jonas Schmedtmann with Udemy .
+Therefore , in this really mini project i want to undrestand what Optional Chaining really does ... ;)
