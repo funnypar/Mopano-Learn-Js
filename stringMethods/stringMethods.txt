@@ -1,0 +1,5 @@
+In this learning practice i want to learn some really important strings methods and just do some challenges .
+
+All of the code come from Jonas Schmedtmann in Udemy *****
+
+But i change something to have much harder challenges !!! ;)
