@@ -38,3 +38,19 @@ firstFunc();
 f();
 secondFunc();
 f();
+
+// Second Example
+
+const boerdingPassengers = function (n, wait) {
+  const preGroup = n / 3;
+
+  setTimeout(() => {
+    console.log(`Boarding all ${n} passengers`);
+    console.log(
+      `There are 3 group passengers that divided and there are ${preGroup} in each !!!`
+    );
+  }, wait * 1000);
+  console.log(`Boarding will start in ${wait} seconds`);
+};
+
+boerdingPassengers(180, 3);
