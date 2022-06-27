@@ -37,15 +37,31 @@
 // console.log(arr.unique());
 
 //ES6 classes
-class Person {
-  constructor(firstName, birthYear) {
+// class Person {
+//   constructor(firstName, birthYear) {
+//     this.firstName = firstName;
+//     this.birthYear = birthYear;
+//   }
+
+//   calcAge() {
+//     console.log(`${this.firstName} is ${2022 - this.birthYear} years old :) `);
+//   }
+// }
+// const mopano = new Person("mopano", 2000);
+// mopano.calcAge();
+
+//Object Create
+const PersonProto = {
+  init(firstName, birthYear) {
     this.firstName = firstName;
     this.birthYear = birthYear;
-  }
+  },
 
   calcAge() {
-    console.log(`${this.firstName} is ${2022 - this.birthYear} years old :) `);
-  }
-}
-const mopano = new Person("mopano", 2000);
+    console.log(`${this.firstName} is ${2022 - this.birthYear} years old`);
+  },
+};
+
+const mopano = Object.create(PersonProto);
+mopano.init("Parsa", 2000);
 mopano.calcAge();
